@@ -31,3 +31,13 @@ elem.alt = 'picture of my awesome, amazing dog';
 
 //add this element to the top of the body
 document.body.insertBefore(elem, document.body.firstChild);
+
+//create a new img element
+var kitty = document.createElement('img');
+kitty.src = 'img/cat.jpg';
+kitty.alt = 'picture of a cool cat';
+
+//add this  to the body of the page
+document.body.appendChild(kitty);
+
+
